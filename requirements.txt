@@ -1,0 +1,14 @@
+pandas # for dataframe
+requests # requests
+bs4 # BeautifulSoup
+sqlalchemy # for database  
+pymysql # for mysql
+pillow # for image processing
+pydub # for audio processing
+playsound # for audio processing
+geopandas # for geospatial analysis
+google-cloud-bigquery # for bigquery 
+PyPDF2 # for pdf processing
+xlrd # for excel processing
+openpyxl
+db_dtypes
