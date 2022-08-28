@@ -1,6 +1,7 @@
-.env
-*.env
-
 # ignore all .json files inside of ingestion/bigquery/
 *.json
 
+
+
+## environments
+venv/
