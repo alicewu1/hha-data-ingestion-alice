@@ -27,8 +27,8 @@ apiDataset=requests.get('https://data.cms.gov/data-api/v1/dataset/b35c77ac-26e2-
 ## load as json
 apiDataset=apiDataset.json()
 ## load into dataframe for visualization
-apiDataset = pd.read_json(apiDataset)
-print (apiDataset) ##view output
+df = pd.DataFrame.from_records(apiDataset)
+print(df) ## view output
 
 
 ## SECTION 3: GCP BigQuery using google-cloud-bigquery
